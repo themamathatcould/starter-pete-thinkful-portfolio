@@ -19,15 +19,19 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 header h1 {
