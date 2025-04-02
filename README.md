@@ -1,42 +1,24 @@
-# Pete's Portfolio Starter Project
+# Assessment: Deeper with CSS
 
 This repository contains a starter template for Pete's portfolio. The project helps you learn how to create a personal portfolio page using HTML and CSS, while also getting familiar with basic design principles.
 
 ## Project Overview
 
-This portfolio website template serves as a foundation to showcase your projects, skills, and experience as a developer. It includes pre-designed sections for an introduction, project gallery, skills, and contact information. You are encouraged to modify and extend the design to fit your personal style.
+In this lesson, you'll apply your new CSS skills to complete and submit a graded assessment. Congratulations—you're one step closer to becoming a professional developer!
 
-## Features
+This is your final step in this process! You've developed a lot of new skills in this module, so get ready to put them into action as you tackle this project.
 
-- **Responsive Layout**: The template is designed to be mobile-friendly, ensuring that your portfolio looks great on all devices.
-- **Customizable Design**: Easily update images, colors, and content through the HTML and CSS files.
-- **Gallery Section**: Showcase your projects with space for project descriptions and links.
-- **Contact Form**: Pre-built form to collect inquiries and messages from visitors.
+## Project Description
 
-## Installation
+You're a web developer at a design agency. Pete Thinkful, an artist, has approached your team to help him build a web portfolio to serve as his online business card.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Thinkful-Ed/starter-pete-thinkful-portfolio.git
-   cd starter-pete-thinkful-portfolio
-   ```
+When viewed on a desktop computer, Pete's portfolio page currently looks like the image on the course page
 
-2. **Open the project**:
-   You can simply open `index.html` in your browser to view the website locally.
 
-## Getting Started
+The designer on your team met with Pete to discuss Pete's vision for the project. Together, they redesigned the portfolio and created a new mockup:
 
-Once you have the repository cloned, feel free to modify the HTML and CSS to add your personal details:
-- Update the **profile picture** and **about section** in `index.html`.
-- Add your own **project details** in the gallery section.
-- Customize colors and fonts in the `style.css` file to match your preferences.
 
-## Customization
-
-This template is meant to be a starting point. Here are some suggestions for customization:
-- Replace the placeholder images in the `images/` folder with your own.
-- Modify the layout, fonts, and colors in `style.css` to make it unique.
-- Add additional sections for skills, experience, or testimonials as needed.
+For this project, you will tweak the HTML and CSS of Pete's original portfolio site to achieve the new look and feel of the redesign.
 
 ## Technologies
 
