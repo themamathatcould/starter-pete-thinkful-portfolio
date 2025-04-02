@@ -5,7 +5,7 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 250px;
+  padding: 40px;
 }
 
 /* Headings */
@@ -19,35 +19,17 @@ h3 {
 /* Header */
 header {
   text-align: center;
-  width: 100%;
-  max-width: 1200px;
-  padding: 20px;
-  box-sizing: border-box;
+  justify-content: center;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 10px 20px;
+ul {
+  text-align: left;
 }
-
-header h1 {
-  margin: 0;
-}
-
-header nav a {
-  padding-left: 20px;
-}
-
 /* Containers */
 div {
   background-color: #eae2b7;
-  margin: auto;
-  width: 100%; /* Ensure full width for main containers */
-  max-width: 1200px; /* Set a max-width for better layout control */
+  margin: 0 auto;
+  width: 600px;
 }
 
 article {
@@ -57,54 +39,28 @@ article {
 article div {
   text-align: center;
   width: 100%;
+  padding: 10px
 }
 
-/* About section */
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+.container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 }
 
-.about-image {
-  margin-right: 20px;
+ .group{
+        display: flex;
+        flex: 1;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly; 
 }
-
-.about-intro {
-  text-align: left;
-}
-
-.about-intro h3 {
-  text-align: center;
-}
-
-.about-background {
-  display: block; /* Ensure the background section is displayed as a block element */
-  margin-top: 20px;
-}
-
-/* Portfolio section */
-.portfolio-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px; /* Adjust the spacing as needed */
-}
-
-.portfolio-item {
-  flex: 1;
-  text-align: center;
-}
-
-.portfolio-item p {
-  font-size: 14px;
-}
-
 /* Paragraphs */
 p {
   line-height: 1.5;
+  font-size: 14px;
 }
-
 /* Links */
 a:link {
   color: #d62828;
@@ -116,6 +72,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+  
 }
 
 /* Images */
@@ -133,9 +90,11 @@ img {
 /* Footer */
 footer {
   text-align: center;
+  justify-content: center;
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
 }
+
